@@ -1,0 +1,111 @@
+/* 
+		CSS Tab Menu based on 
+		Sliding Doors of CSS
+		by Douglas Bowman
+		http://www.alistapart.com/articles/slidingdoors 
+		Modified by Stephen Robinson for EBI use.
+		*/
+		
+		.tabmenubar {
+			float:left;
+			width:100%;
+			background:#eeeeee;
+			border-bottom:1px solid  #408c8c;
+			border-left:1px solid  #408c8c;
+			border-right:1px solid  #408c8c;
+			overflow: hidden;
+			font-size: 8pt;
+			color: #006666;
+			font-weight: bold;
+			clear: both;
+		}
+		
+		.tabmenubarinner{
+			padding:3px 6px 3px 6px;
+		}
+		
+		.tabmenucontentsinner{
+			padding:6px 6px 6px 6px;
+		}
+		
+		.tabmenucontents {
+			float:left;
+			width:100%;
+			background:#ffffff;
+			border-bottom:1px solid  #408c8c;
+			border-left:1px solid  #408c8c;
+			border-right:1px solid  #408c8c;
+		}
+
+		.tabmenu {
+			float:left;
+			width:100%;
+			background:#eef5f5 url("http://www.ebi.ac.uk/inc/images/tab_bg.gif") repeat-x bottom;
+			font-size:93%;
+			line-height:normal;
+			border-left: 1px solid  #408c8c;
+			border-right: 1px solid  #408c8c;
+			border-top: 1px solid  #408c8c;
+			border-bottom:0;
+		}
+		
+		.tabmenu ul {
+			margin:0;
+			padding:10px 10px 0;
+			list-style:none;
+		}
+		
+		.tabmenu li {
+			float:left;
+			background:url("http://www.ebi.ac.uk/inc/images/tab_norm_right.gif") no-repeat right top;
+			margin:0;
+			padding:0;
+		}
+		
+		.tabmenu a:link, .tabmenu a:visited {
+			display:block;
+			background:url("http://www.ebi.ac.uk/inc/images/tab_norm_left.gif") no-repeat left top;
+			padding:5px 15px 4px;
+			text-decoration: none;
+			color: #006666;
+		}
+		
+		.tabmenu a:active, .tabmenu a:hover ,  .tabmenu a.tab_hover:link, .tabmenu a.tab_hover:visited {
+			display:block;
+			padding:5px 15px 4px;
+			background-image:url("http://www.ebi.ac.uk/inc/images/tab_norm_left_on.gif");
+			padding-bottom:5px;
+			text-decoration: none;
+			color: #404040;
+		}
+		
+		.tabmenu li:hover, .tabmenu li.current_hover  {
+			background-image:url("http://www.ebi.ac.uk/inc/images/tab_norm_right_on.gif");
+		}
+		
+		.tabmenu .current {
+			background-image:url("http://www.ebi.ac.uk/inc/images/tab_norm_right_on.gif");
+		}
+
+		.tabmenu .noactive {
+			
+			background:#eef5f5 url("http://www.ebi.ac.uk/inc/images/tab_bg.gif") repeat-x bottom;
+			
+		}
+		
+		.tabmenu .current a:active, .tabmenu .current a:link, .tabmenu .current a:visited, .tabmenu .current a:hover {
+			/*
+			background-image:url("http://www.ebi.ac.uk/inc/images/tab_norm_left_on.gif");
+			padding-bottom:5px;
+			text-decoration: none;
+			color: #404040;
+			*/
+			display:block;
+			padding:5px 15px 4px;
+			background-image:url("http://www.ebi.ac.uk/inc/images/tab_norm_left_on.gif");
+			padding-bottom:5px;
+			text-decoration: none;
+			color: #404040;
+			
+		}
+

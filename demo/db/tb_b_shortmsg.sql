@@ -1,0 +1,49 @@
+﻿# Host: localhost  (Version: 5.0.51b-community-nt-log)
+# Date: 2014-07-30 10:59:19
+# Generator: MySQL-Front 5.3  (Build 2.53)
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE */;
+/*!40101 SET SQL_MODE='NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES */;
+/*!40103 SET SQL_NOTES='ON' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS */;
+/*!40014 SET FOREIGN_KEY_CHECKS=0 */;
+
+#
+# Source for table "tb_b_shortmsg"
+#
+
+DROP TABLE IF EXISTS `tb_b_shortmsg`;
+CREATE TABLE `tb_b_shortmsg` (
+  `id` int(11) NOT NULL auto_increment,
+  `short_msg_th` varchar(1000) default NULL,
+  `status` char(1) default 'Y',
+  `cb` varchar(30) default NULL,
+  `cd` datetime default NULL,
+  `mb` varchar(30) default NULL,
+  `md` datetime default NULL,
+  `short_msg_en` varchar(1000) default NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+
+#
+# Data for table "tb_b_shortmsg"
+#
+
+/*!40000 ALTER TABLE `tb_b_shortmsg` DISABLE KEYS */;
+INSERT INTO `tb_b_shortmsg` VALUES (1,'ทดสอบ','Y',NULL,NULL,NULL,NULL,NULL);
+/*!40000 ALTER TABLE `tb_b_shortmsg` ENABLE KEYS */;
+
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

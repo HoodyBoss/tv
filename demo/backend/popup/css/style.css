@@ -1,0 +1,58 @@
+@import url(../../fonts/thsarabunnew.css);
+body {
+	background-color:#fdfdfd;
+}
+#newswrapper {
+	width:100%;
+}
+.news-title {
+	font-size:27px;
+	color:#333;
+	font-weight:bold;
+	margin:20px 20px 10px 10px;
+	font-family: sans-serif;
+}
+.news-meta {
+	font-size: 14px;
+	color: #999;
+	font-weight: normal;
+	font-family: sans-serif;
+	font-style: italic;
+	padding: 10px;
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	border: 1px solid #CCC;
+	-webkit-border-radius: 3px 3px 3px 3px;
+	border-radius: 3px 3px 3px 3px;
+}
+.news-featured-img {
+	width: 100%;
+	text-align: center;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.news-featured-img img{
+	padding:8px;
+	border: 1px solid #CCC;
+	-webkit-border-radius: 3px 3px 3px 3px;
+	border-radius: 3px 3px 3px 3px;
+}
+.news-content {
+	font-size: 14px;
+	color: #333;
+	font-family: sans-serif;
+	margin:20px 20px 10px 10px;
+}
+.news-content a{
+	color: #570f7d;
+	font-family: sans-serif;
+	text-decoration:underline;
+	font-weight:bold;
+}
+.news-content a:hover{
+	color: #999;
+}
